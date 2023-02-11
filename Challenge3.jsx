@@ -4,8 +4,6 @@ import PropTypes from 'prop-types'
 const FirstApp = ({valor}) => {
   
     const [counter, setCounter] = useState(valor)
-
-
     const handleAdd = () => {
         console.log('Llama handleAdd')
         setCounter(counter + 1)
@@ -20,8 +18,6 @@ const FirstApp = ({valor}) => {
         console.log('Llama handleReset')
         setCounter(valor)
     }
-
-  
     return (
         <>
         <h1>
